@@ -1,7 +1,7 @@
 import {useQuery} from "@tanstack/react-query";
 
 const fetchPosts = async()=>{
-    const res = await fetch ("")
+    const res = await fetch ("https://jsonplaceholder.typicode.com/posts&#39");
 
     if(!res.ok){
         throw new Error("Network error");
